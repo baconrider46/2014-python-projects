@@ -2,7 +2,7 @@
 import time
 import random
 
-def typeit(it,low=0.03,high=0.1):
+def typeit(it,low=0.01,high=0.1):
     for letter in it:
         print(letter,end='')
         time.sleep(random.uniform(low,high))
@@ -31,6 +31,9 @@ class Destroyer(Ship):
 class PatrolBoat(Ship):
     size = 2
 
+
+    
+    
 #---------------------------------
     
 grid = [
