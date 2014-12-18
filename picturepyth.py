@@ -10,6 +10,11 @@ nibles.speed(1000000000000)
 for counter in range(1,200):
     nibles.pencolor(random_color())
     nibles.right(10)
-    nibles.left(20)
-    nibles.backward(100)
-    nibles.forward(100)
+    nibles.forward(150)
+    nibles.right(100)
+    nibles.left(200)
+    nibles.forward(20)
+    nibles.left(100)
+    nibles.right(20)
+    
+    

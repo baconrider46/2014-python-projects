@@ -13,5 +13,5 @@ for counter in range(1,200):
     nibles.left(20)
     nibles.backward(1)
     nibles.forward(10)
-    nibles.right(100)
-    nibles.left(100)
+    nibles.
+    
